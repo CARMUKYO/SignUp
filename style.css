@@ -1,0 +1,150 @@
+@font-face {
+    font-family: oden-large;
+    src: url("./img/Norse-Bold.otf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.logo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left{
+    background-image: url(img/forest.avif);
+    background-position: center;
+    background-size: auto;
+    width: 30vw;
+}
+
+.logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 20vh;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: oden-large;
+    font-size: 4.5rem;
+    color: white;
+}
+
+.credits{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    top: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cre{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.forest {
+    height: 10vh;
+}
+
+.right{
+    width: 70vw;
+    background-color:white;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.move{
+    padding-left: 3vw;
+}
+
+.description{
+    padding-top: 100px;
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.remoteText{
+    margin: 40px 0 30px;
+}
+
+.form{
+    background-color: white;
+    box-shadow: 0 10px 30px  rgb(22, 22, 22, 0.5);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.formTitle{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+input{
+    width: 70%;
+    background-color: white;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid blue;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid #596D48;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+}
+
+button:hover{
+    background-color: #596D48;
+    color: black;
+    
+}
+
+.logIn{
+    display: flex;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 700;
+}
